@@ -1,10 +1,15 @@
-const express = require('express');
-const {createProduct} = require('../controller/product-controller')
-const router = express.Router();
-const {addCategory, getCategories} = require('../controller/categoryC');
-const Product = require('../model/product');
-const { requireSignin } = require('../common-middleware/indexx');
-router.post('/product/create',createProduct);
-router.get('/category/getcategory',getCategories);
+// product.js
+import express from 'express';
+import { createProduct, getProductsBySlug, getProductDetailsById, deleteProductById, getProducts } from '../controller/product-controller.js';
+import { getCategories } from '../controller/categoryC.js';
 
-module.exports = router;
+const router = express.Router();
+
+router.post('/product/create', createProduct);
+router.get('/product/:slug', getProductsBySlug);
+router.get('/product/details/:productId', getProductDetailsById);
+router.delete('/product/delete', deleteProductById);
+router.get('/products', getProducts);
+router.get('/category/getcategory', getCategories);
+
+export default router;

@@ -2,6 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "This is the backend of our e-commerce website",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -29,6 +30,6 @@
     "slugify": "^1.6.6"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.2"
   }
 }

@@ -1,11 +1,10 @@
-const Product = require("../model/product");
-const shortid = require("shortid");
-const slugify = require("slugify");
-const Category = require("../model/category");
+// productController.js
+import Product from "../model/productSchema.js";
+import shortid from "shortid";
+import slugify from "slugify";
+import Category from "../model/category.js";
 
-exports.createProduct = (req, res) => {
-  //res.status(200).json( { file: req.files, body: req.body } );
-
+export const createProduct = (req, res) => {
   const { name, price, description, category, quantity, createdBy } = req.body;
   let productPictures = [];
 
@@ -34,7 +33,7 @@ exports.createProduct = (req, res) => {
   });
 };
 
-exports.getProductsBySlug = (req, res) => {
+export const getProductsBySlug = (req, res) => {
   const { slug } = req.params;
   Category.findOne({ slug: slug })
     .select("_id type")
@@ -85,7 +84,7 @@ exports.getProductsBySlug = (req, res) => {
     });
 };
 
-exports.getProductDetailsById = (req, res) => {
+export const getProductDetailsById = (req, res) => {
   const { productId } = req.params;
   if (productId) {
     Product.findOne({ _id: productId }).exec((error, product) => {
@@ -99,8 +98,7 @@ exports.getProductDetailsById = (req, res) => {
   }
 };
 
-// new update
-exports.deleteProductById = (req, res) => {
+export const deleteProductById = (req, res) => {
   const { productId } = req.body.payload;
   if (productId) {
     Product.deleteOne({ _id: productId }).exec((error, result) => {
@@ -114,7 +112,7 @@ exports.deleteProductById = (req, res) => {
   }
 };
 
-exports.getProducts = async (req, res) => {
+export const getProducts = async (req, res) => {
   const products = await Product.find({ createdBy: req.user._id })
     .select("_id name price quantity slug description productPictures category")
     .populate({ path: "category", select: "_id name" })

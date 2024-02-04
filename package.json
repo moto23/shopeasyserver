@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This is the backend of our e-commerce website",
   "type": "module",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon app.js"
   },
   "keywords": [
     "ecommerce",

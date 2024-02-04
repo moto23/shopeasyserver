@@ -1,128 +1,131 @@
 export const products = [
     { 
         id: 'product1',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
+        url: 'https://checkfirst.in/wp-content/uploads/2022/05/Checkfirst_The_Psychology_Of_Money.webp', 
+        detailUrl: 'https://checkfirst.in/wp-content/uploads/2022/05/Checkfirst_The_Psychology_Of_Money.webp',
         title: {
-            shortTitle: 'Home & Kitchen',
-            longTitle: 'Pigeon FAVOURITE Electric Kettle  (1.5 L, Silver, Black)'
+            shortTitle: 'Get at the lowest price',
+            longTitle: 'The Psychology Of Money'
         }, 
         price: {
-            mrp: 1195,
-            cost: 625,
-            discount: '47%'
+            mrp: 267,
+            cost: 267,
+            discount: '0%'
         },
         quantity: 1,
-        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
-        discount: 'Extra 10% Off', 
-        tagline: 'Deal of the day' 
+        description: '4.6 ⭐ 98.7k+\nLimited Time Deal\n₹267 M.R.P\nFREE delivery Wed, 30 Aug on ₹1299 of items fulfilled by ShopEasy Or fastest delivery Tomorrow, 29 Aug',
+        discount: '0% Off', 
+        tagline: 'Limited Time Deal' 
     },
     { 
         id: 'product2',
-        url: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
+        url: 'https://images-eu.ssl-images-amazon.com/images/I/71QKQ9mwV7L._AC_UL600_SR600,600_.jpg', 
+        detailUrl: 'https://images-eu.ssl-images-amazon.com/images/I/71QKQ9mwV7L._AC_UL600_SR600,600_.jpg',
         title: {
-            shortTitle: 'Sandwich Makers',
-            longTitle: 'Flipkart SmartBuy Sandwich 01 Grill  (Black)'
+            shortTitle: 'Get at the lowest price',
+            longTitle: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life'
         },
         price: {
-            mrp: 1499,
-            cost: 899,
-            discount: '40%'
+            mrp: 240,
+            cost: 240,
+            discount: '0%'
         },
         quantity: 1,
-        description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
-        discount: 'From 99+5% Off', 
-        tagline: 'Pestige, Nova & more' 
+        description: '4.9 ⭐ 199k+\nGet At Lowest\n₹240 M.R.P\nMost Selled\nIn this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be “positive” all the time so that we can truly become better, happier people....',
+        discount: '0% Off', 
+        tagline: 'Get At Lowest' 
     },
+    // Add more products as needed
+
     { 
         id: 'product3',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
+        url: 'https://m.media-amazon.com/images/I/71bVjdpp+NL._SX679_.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/71bVjdpp+NL._SX679_.jpg',
         title: {
-            shortTitle: 'Fitness Gear',
-            longTitle: 'AJRO DEAL New Adjustable Single Resistance Tube (Multicolor) Resistance Tube  (Multicolor)'
+            shortTitle: 'Get at the lowest price',
+            longTitle: 'Kore 3 in 1 Convertible 20 Kg PVC Dumbbells Set'
         }, 
         price: {
-            mrp: 499,
-            cost: 166,
-            discount: '66%'
+            mrp: 756,
+            cost: 756,
+            discount: '0%'
         },
         quantity: 1,
-        description: 'This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.',
-        discount: 'Upto 70% Off', 
-        tagline: 'Deal of the Day' 
+        description: '3.6 ⭐ 44.7k+\nLimited Time Deal\n₹756 M.R.P\nIn-box Contents: 20 kg of PVC weight (3 kg x 4 12 kg, 2 kg x 4 8 kg), 2 x 14 inch dumbbell rods with nuts\nHighly durable and long-lasting\nA perfect muscle builder....',
+        discount: '0% Off', 
+        tagline: 'Limited Time Deal' 
     },
     { 
         id: 'product4',
-        url: 'https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
+        url: 'https://m.media-amazon.com/images/I/61-X6z9Ms4S._SX466_.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/61-X6z9Ms4S._SX466_.jpg',
         title: {
-            shortTitle: 'Smart Watches',
-            longTitle: 'Molife Sense 500 Smartwatch  (Black Strap, Freesize)',
-        }, 
+            shortTitle: 'Get at the lowest price',
+            longTitle: 'Lifelong FitPro LLTM09 (2.5 HP Peak) Manual Incline Motorized Treadmill for Home with 12 preset Workouts, Max Speed 12km/hr.'
+        },
         price: {
-            mrp: 6999,
-            cost: 4049,
-            discount: '42%'
+            mrp: 17699,
+            cost: 17699,
+            discount: '0%'
         },
         quantity: 1,
-        description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
-        discount: 'Grab Now', 
-        tagline: 'Best Seller' 
+        description: '4.4 ⭐ 6.2k+\nBest At Price\n₹17,699 M.R.P\n12 pre-set workout programs to set variable exercise mode for weight loss training and endurance training and 8 rubber pads under deck for shock absorption.\nIt is suggested to use a 1000 VA stabilizer. In-Box Contents: 1 treadmill, toolkit, user manual, and warranty card....',
+        discount: '0% Off', 
+        tagline: 'Best At Price' 
     },
+
     { 
         id: 'product5',
-        url: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70', 
+        url: 'https://zebronics.com/cdn/shop/products/Zeb-Reaper-pic1.jpg?v=1625919481&width=1024', 
+        detailUrl: 'https://zebronics.com/cdn/shop/products/Zeb-Reaper-pic1.jpg?v=1625919481&width=1024',
         title: {
-            shortTitle: 'Trimmers, Dryers & more',
-            longTitle: 'Nova Professional NHP 8220 Hair Dryer  (1800 W, Multicolor)'
+            shortTitle: 'Get at the lowest price',
+            longTitle: 'Redgear A-17 Gaming Mouse with Upto 6400 DPI, RGB Lighting and Braided Cable (Black)'
         }, 
         price: {
-            mrp: 1899,
-            cost: 1124,
-            discount: '40%'
+            mrp: 1657,
+            cost: 1657,
+            discount: '0%'
         },
         quantity: 1,
-        description: '',
-        discount: 'From ₹499', 
-        tagline: 'Kubra, Nova & more' 
+        description: '4.2 ⭐ 2.2k+\nVery few Left\n₹1,657 M.R.P\nFREE delivery Wed, 30 Aug on ₹1299 of items fulfilled by ShopEasy\nOr fastest delivery Tomorrow, 29 Aug',
+        discount: '0% Off', 
+        tagline: 'Very few Left' 
     },
     { 
         id: 'product6',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70', 
+        url: 'https://m.media-amazon.com/images/I/61BGGGuSePL._SX679_.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/61BGGGuSePL._SX679_.jpg',
         title: {
-            shortTitle: 'Table Fans',
-            longTitle: 'Portable 300 mm Ultra High Speed 3 Blade Table Fan  (Black, Pack of 1)'
-        }, 
+            shortTitle: 'Get at the lowest price',
+            longTitle: 'Amkette EvoFox Elite X Wireless Gamepad for PC with Dual Vibration Motors, 2 Macro Back Buttons, Low Latency Plug and Play, Free USB Extender, Translucent Shell'
+        },
         price: {
-            mrp: 2250,
-            cost: 1199,
-            discount: '46%'
+            mrp: 1299,
+            cost: 1299,
+            discount: '0%'
         },
         quantity: 1,
-        description: 'Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ',
-        discount: 'Minimum 40% Off', 
-        tagline: 'Top Selling' 
+        description: '3.8 ⭐ 1k+\nGet At Lowest\n₹1,299 M.R.P\nWireless connectivity: A clutter-free gaming experience with wireless connectivity .\nMacro Functions: Customise your Moves with EZ On the Fly Macro . With the ability to program complex sequences of commands, you can perform complex moves with a single click....\nLast updated 3 mins ago',
+        discount: '0% Off', 
+        tagline: 'Get At Lowest' 
     },
     { 
         id: 'product7',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70', 
+        url: 'https://m.media-amazon.com/images/I/61Az2uOUbqL.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/61Az2uOUbqL.jpg',
         title: {
-            shortTitle: 'Headphones',
-            longTitle: 'boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluetooth Headset '
-        }, 
+            shortTitle: 'Get at the lowest price',
+            longTitle: 'Ant Esports MK1400 Pro Backlit Membrane Wired Gaming Keyboard with Mixed Colour Lighting, White & Black Keycaps, Double Injection Key Caps - Black'
+        },
         price: {
-            mrp: 2990,
-            cost: 1199,
-            discount: '59%'
+            mrp: 0,
+            cost: 0,
+            discount: '0%'
         },
         quantity: 1,
-        description: 'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
-        discount: 'Minimum 50% Off', 
-        tagline: 'Grab Now!' 
+        description: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.\nLast updated 3 mins ago',
+        discount: '0% Off', 
+        tagline: 'Get at the lowest price' 
     }
 ];

@@ -120,3 +120,12 @@ export const getProducts = async (req, res) => {
 
   res.status(200).json({ products });
 };
+
+export const getProductById = async (request, response) => {
+  try {
+      const products = await Product.findOne({ 'id': request.params.id });
+      response.json(products);
+  }catch (error) {
+
+  }
+}
